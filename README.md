@@ -1,11 +1,15 @@
-# LML-Model-Trainer
+No worries, we can fix that! Here’s the revised documentation with the correct module name:
 
-**LML-Model-Trainer** is a critical module within our comprehensive trading bot application. This module focuses on scraping financial news data and training a BERT-based sentiment analysis model. By integrating this module, our trading bot gains the ability to interpret market sentiment from real-time news, enhancing its decision-making process.
+---
+
+# LMM-Model-Trainer
+
+**LMM-Model-Trainer** is a critical module within our comprehensive trading bot application. This module focuses on scraping financial news data and training a BERT-based sentiment analysis model. By integrating this module, our trading bot gains the ability to interpret market sentiment from real-time news, enhancing its decision-making process.
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [LML-Model-Trainer Module](#lml-model-trainer-module)
+- [LMM-Model-Trainer Module](#lmm-model-trainer-module)
   - [Purpose](#purpose)
   - [Features](#features)
   - [Integration in the Trading Bot](#integration-in-the-trading-bot)
@@ -24,16 +28,16 @@
 Our trading bot application aims to automate trading strategies by leveraging advanced data analysis and machine learning techniques. The application comprises several interconnected components:
 
 1. **Market Data Collector**: Gathers real-time market data such as prices, volumes, and order books.
-2. **LML-Model-Trainer**: Scrapes financial news headlines and trains a sentiment analysis model to interpret market sentiment.
+2. **LMM-Model-Trainer**: Scrapes financial news headlines and trains a sentiment analysis model to interpret market sentiment.
 3. **Strategy Engine**: Implements trading algorithms that utilize both market data and sentiment analysis to make informed decisions.
 4. **Execution Module**: Executes trades on various exchanges or trading platforms.
 5. **Monitoring & Logging**: Tracks performance metrics, logs activities, and provides alerts for critical events.
 
-## LML-Model-Trainer Module
+## LMM-Model-Trainer Module
 
 ### Purpose
 
-The **LML-Model-Trainer** module enhances our trading bot by:
+The **LMM-Model-Trainer** module enhances our trading bot by:
 
 - **Scraping Financial News**: Collecting the latest headlines from reputable financial news sources.
 - **Training a Sentiment Analysis Model**: Utilizing BERT to understand and quantify the sentiment of news articles.
@@ -80,29 +84,29 @@ pip install torch transformers requests beautifulsoup4 scikit-learn matplotlib
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/YourUsername/LML-Model-Trainer.git
+   git clone https://github.com/YourUsername/LMM-Model-Trainer.git
    ```
 
 2. **Navigate to the Module Directory**:
 
    ```bash
-   cd LML-Model-Trainer
+   cd LMM-Model-Trainer
    ```
 
 3. **Include the Module in Your Trading Bot**:
 
-   Copy or link the `lml_model_trainer.py` file into your trading bot's project directory.
+   Copy or link the `lmm_model_trainer.py` file into your trading bot's project directory.
 
 4. **Import the Module**:
 
    ```python
-   from lml_model_trainer import LMLModelTrainer
+   from lmm_model_trainer import LMMModelTrainer
    ```
 
 5. **Initialize the Trainer**:
 
    ```python
-   trainer = LMLModelTrainer()
+   trainer = LMMModelTrainer()
    ```
 
 6. **Set Training Parameters** (Optional):
@@ -136,10 +140,10 @@ pip install torch transformers requests beautifulsoup4 scikit-learn matplotlib
 ```python
 # In your trading bot's main script
 
-from lml_model_trainer import LMLModelTrainer
+from lmm_model_trainer import LMMModelTrainer
 
 # Initialize the sentiment trainer
-trainer = LMLModelTrainer()
+trainer = LMMModelTrainer()
 
 # Set training parameters if desired
 trainer.set_parameters(num_epochs=5, batch_size=16, learning_rate=2e-5)
@@ -176,7 +180,7 @@ else:
 
 ## Contributing
 
-We welcome contributions to improve the **LML-Model-Trainer** module. If you'd like to contribute:
+We welcome contributions to improve the **LMM-Model-Trainer** module. If you'd like to contribute:
 
 1. **Fork the Repository**:
 
@@ -210,7 +214,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-By integrating the **LML-Model-Trainer** module into our trading bot application, we aim to enhance its capability to interpret and react to market sentiment, thereby making more informed and strategic trading decisions. This module is a vital part of our plan to develop a sophisticated, data-driven trading platform that leverages both quantitative data and qualitative insights from market news.
+By integrating the **LMM-Model-Trainer** module into our trading bot application, we aim to enhance its capability to interpret and react to market sentiment, thereby making more informed and strategic trading decisions. This module is a vital part of our plan to develop a sophisticated, data-driven trading platform that leverages both quantitative data and qualitative insights from market news.
 
-For any questions or further assistance, please open an issue or contact My self Mike Morrison 
-can be reached at mike.morrison@student.sl.on.ca
+For any questions or further assistance, please open an issue or contact Michael Morrison at mike.morrison@student.sl.on.ca.
