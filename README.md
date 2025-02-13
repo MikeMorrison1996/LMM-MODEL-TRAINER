@@ -69,13 +69,3 @@ We welcome contributions from the community! 🚀
 
 ---
 
-## 📜 License
-
-**MIT License** – Feel free to use, modify, and distribute this project.
-
----
-
-🔗 **Stay Connected!**
-- 💻 [GitHub Repository](https://github.com/YourUsername/LMM-Model-Trainer)
-- ✉️ Contact: [YourEmail@example.com](mailto:YourEmail@example.com)
-
